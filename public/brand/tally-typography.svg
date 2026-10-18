@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4613.99 2037.36">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #18221c;
+        font-family: CocogooseProTrial-Regular, CocogooseProTrial;
+        font-size: 1258.93px;
+      }
+
+      .cls-2 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        fill: #5a7959;
+      }
+
+      .cls-4 {
+        letter-spacing: -.08em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <path class="cls-3" d="m496.62,574.56h0v449.38c0,117.37-95.29,212.66-212.66,212.66h0v-449.38c0-117.37,95.29-212.66,212.66-212.66Z"/>
+      <path class="cls-3" d="m791.8,283.27h0v740.66c0,117.37-95.29,212.66-212.66,212.66h0V495.93c0-117.37,95.29-212.66,212.66-212.66Z"/>
+      <path class="cls-3" d="m1086.98,0h0v1023.94c0,117.37-95.29,212.66-212.66,212.66h0V212.66C874.33,95.29,969.61,0,1086.98,0Z"/>
+      <circle class="cls-3" cx="113.06" cy="1123.54" r="113.06"/>
+    </g>
+    <text class="cls-1" transform="translate(1228.46 1188.6)"><tspan class="cls-4" x="0" y="0">T</tspan><tspan class="cls-2" x="703.23" y="0">ally</tspan></text>
+  </g>
+</svg>
