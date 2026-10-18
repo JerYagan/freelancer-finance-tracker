@@ -2,15 +2,16 @@ import type { NextConfig } from "next";
 
 export const cspHeader = `
   default-src 'self';
-  script-src 'self' 'unsafe-eval' 'unsafe-inline';
+  script-src 'self' 'unsafe-eval' 'unsafe-inline' https://vercel.live;
   style-src 'self' 'unsafe-inline';
-  img-src 'self' blob: data:;
-  font-src 'self' data:;
+  img-src 'self' blob: data: https:;
+  font-src 'self' data: https:;
+  manifest-src 'self' https:;
   object-src 'none';
   base-uri 'self';
   form-action 'self';
   frame-ancestors 'none';
-  connect-src 'self' https://api.resend.com;
+  connect-src 'self' https://api.resend.com https://*.vercel.app https://vercel.live https://vercel.com;
 `
   .replace(/\s{2,}/g, " ")
   .trim();
