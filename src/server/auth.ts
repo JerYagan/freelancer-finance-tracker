@@ -23,6 +23,12 @@ export const auth = betterAuth({
   }),
   secret: env.BETTER_AUTH_SECRET,
   baseURL: env.BETTER_AUTH_URL,
+  trustedOrigins: [
+    env.BETTER_AUTH_URL,
+    env.NEXT_PUBLIC_APP_URL,
+    "https://*.vercel.app",
+    "http://localhost:3000",
+  ],
   emailAndPassword: {
     enabled: true,
     minPasswordLength: 10,
